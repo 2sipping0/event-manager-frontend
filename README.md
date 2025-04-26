@@ -142,4 +142,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Related Projects
 
-- [Event Manager Backend](https://github.com/2sipping0/event-manager-backend) - The API backend that powers this frontend application
+- [Event Manager Backend](https://github.com/2sipping0/event-manager-backend) - The API backend that powers this frontend application# event-manager-frontend
