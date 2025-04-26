@@ -1,0 +1,86 @@
+.events-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    
+    .page-header {
+      text-align: center;
+      margin-bottom: 3rem;
+      
+      h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+      
+      p {
+        font-size: 1.1rem;
+        color: #666;
+      }
+    }
+    
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .no-events {
+      text-align: center;
+      padding: 3rem;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      
+      h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        color: #666;
+      }
+    }
+    
+    .error-container {
+      text-align: center;
+      padding: 3rem;
+      background-color: #fff8f8;
+      border-radius: 8px;
+      border: 1px solid #ffdddd;
+      
+      h2 {
+        font-size: 1.75rem;
+        color: #e53935;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        color: #666;
+        margin-bottom: 1.5rem;
+      }
+      
+      .btn-primary {
+        background-color: #4a6cf7;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+        &:hover {
+          background-color: #3a5be0;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .events-page {
+      .events-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
