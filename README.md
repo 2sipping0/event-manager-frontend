@@ -34,7 +34,7 @@ Before setting up the frontend, ensure you have:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/event-manager-frontend.git
+   git clone https://github.com/2sipping0/event-manager-frontend.git
    cd event-manager-frontend
    ```
 
